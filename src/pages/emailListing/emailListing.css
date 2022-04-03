@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  padding: 4rem 2rem 0 2rem;
+}
+.container__left-child {
+  width: 100%;
+  min-width: 25rem;
+}

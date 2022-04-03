@@ -1,0 +1,33 @@
+.filters {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 2rem;
+  width: 40vw;
+  padding: 1.5rem 0.5rem;
+  font-size: 1rem;
+}
+.filters > p {
+  padding: 0.3rem 1rem;
+}
+
+.filters > button {
+  font-size: 1rem;
+}
+
+.filters__button {
+  padding: 0.3rem 1rem;
+  margin-left: 0.3rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.filters__button-selected {
+  padding: 0.3rem 1rem;
+  margin-left: 1rem;
+  outline: none;
+  border: 1px solid #cfd2dc;
+  border-radius: 50px;
+  background-color: #e1e4ea;
+}

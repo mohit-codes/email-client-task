@@ -1,0 +1,55 @@
+.email-card {
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  border: 1px solid #cfd2dc;
+  border-radius: 10px;
+  min-width: 26rem;
+  width: 100%;
+  padding: 0.2rem 0.5rem 0.2rem 0.2rem;
+}
+
+.email-card__avatar {
+  padding: 1rem 1.2rem;
+  border-radius: 100%;
+  width: 1rem;
+  margin: 0.5rem 0.7rem;
+  text-align: center;
+  color: white;
+  background-color: #e54065;
+}
+
+.email-card__fav-txt {
+  color: #e54065;
+  margin-left: 0.5rem;
+  font-weight: 600;
+}
+
+.email-card__info > p {
+  margin: 0.5rem 0;
+}
+
+.bold {
+  font-weight: 600;
+  margin-left: 0.2rem;
+}
+.read {
+  background-color: #f2f2f2;
+}
+.unread {
+  background-color: white;
+}
+
+.truncate-ellipsis {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.truncate-ellipsis > * {
+  display: table-cell;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
